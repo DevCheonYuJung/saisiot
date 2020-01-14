@@ -1,0 +1,85 @@
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 2px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: #555;
+	border-radius: 2px;
+
+}
+	body{
+		background-image: url("../img/checkbox.PNG");
+		padding: 14px;
+		display: flex;
+		align-items: flex-start;
+	}
+	#left_wrapper1{
+    	flex: 0 0 auto;
+		order : 2;
+		background-color: #56B3D5;
+		border-radius : 10px 15px 15px 10px;
+		border: 0.5px solid #000100;
+		width: 400px;
+		height: 110px;
+	}
+	#left_wrapper2{
+		margin: 8px;
+		border-radius : 10px 15px 15px 10px;
+		border: 1px dashed #ffffff;
+		width: 95%;
+		height: 87%;
+	}
+	#left_wrapper3{
+		margin: 5px;
+		border-radius : 10px 15px 15px 10px;
+		border-right: 0;
+		background-color: #f2f2f2;
+		border: 1px solid black;
+		width: 96%;
+		height: 87%;
+	}
+	#left_wrapper4{
+		margin-top: 3px;
+		display: flex;
+		align-items: center;
+    	justify-content: space-between;
+		flex-direction: column;
+		border-radius : 10px 15px 15px 10px;
+		background-color: #ffffff;
+		width: 99%;
+		height: 94%;
+	}
+	#left_wrapper5_1{
+	  	order: 1;
+	    height: 100%;
+	    width: 91%;
+	    display: flex;
+	    flex-direction: column;
+	    align-items: flex-start;
+	    justify-content: space-around;
+	}
+	#left_wrapper5_1>div{
+		display: flex;
+		align-items: center;
+	}
+	.texts{
+		padding :7px;
+		border-radius : 7px;
+	}
+	.btns{
+		margin-left: 10px;
+		border-radius : 20px;
+		width: 130px;
+		background-color: #9ed2e7;
+		height: 27px;
+		border: 1px dashed #000000;
+	}
